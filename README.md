@@ -40,8 +40,8 @@ recovery code   ──Argon2id──▶ recovery KEK ──unwrap──▶ DEK
 ### 1. Get the code
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/PederNilsen/Password_manager.git
+cd Password_manager
 ```
 
 You can also use **Code → Download ZIP** on GitHub.
