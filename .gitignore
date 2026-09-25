@@ -1,0 +1,47 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Secrets ###
+src/main/resources/Password.properties
+# Built jars embed Password.properties
+*.jar
+# TOTP QR codes contain the 2FA secret
+totp-*.png
+config.properties
+*.env
+*.pem
+*.key
+
+### IntelliJ IDEA ###
+# Whole folder: contains local paths and datasource settings
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
