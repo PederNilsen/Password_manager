@@ -1,7 +1,7 @@
 # Password Manager (Java CLI)
 
 A command-line password manager written in Java with a MySQL backend. It was built as a
-learning project in applied cryptography and secure application design.
+learning project.
 
 > **Disclaimer:** This is an educational project. It has not been independently audited, so
 > don't use it as your only store for real credentials.
