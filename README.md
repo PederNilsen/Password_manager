@@ -48,7 +48,7 @@ You can also use **Code → Download ZIP** on GitHub.
 
 ### 2. Create the database
 
-> ⚠️ `setup.sql` **drops and recreates** the `password_manager` database.
+ `setup.sql` **drops and recreates** the `password_manager` database.
 
 **Windows:** double-click `setup.bat`. It finds `mysql.exe`, asks for your MySQL credentials and runs `setup.sql`.
 
